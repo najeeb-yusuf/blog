@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("PolarisTabbedContentTabNavigation.react",["cx","FastLink","react"],(function(a,b,c,d,e,f,g,h){"use strict";var i=d("react");function a(a){var b=a.href,d=a.isSelected,e=a.isSmallScreen,f=a.onClick,g=a.renderLabel,h=a.tabBarPosition,j=a.tabBarWidth;j=j===void 0?"wide":j;var k=a.showSelectedTabIndicator;k=k===void 0?!1:k;var l=a.tabId;a=function(a){f&&f(l,a)};return i.jsx(c("FastLink"),{"aria-selected":d,className:"_aa-z"+(d?" _aa--":"")+(k===!0&&d&&h==="top"?" _ac_u":"")+(k===!0&&d&&h==="bottom"?" _ac_v":"")+(j==="narrow"?" _ae8r":""),href:b,onClick:a,role:"tab",children:g(d,e)})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);

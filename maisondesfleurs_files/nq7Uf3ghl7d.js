@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("PolarisSeeAllLink.react",["cx","fbt","FastLink","PolarisIGCoreText","react"],(function(a,b,c,d,e,f,g,h,i){"use strict";var j=d("react");function a(a){return j.jsx(c("FastLink"),{className:"_ac5x",href:a.href,onClick:a.onClick,params:a.params,children:j.jsx(c("PolarisIGCoreText").BodyEmphasized,{color:"ig-primary-button",zeroMargin:!0,children:i._("See All")})})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
